@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    color: white;
+}
+#flipperDiv {
+    width: 500px;
+    height: 150px;
+    border: 3px black solid;
+    border-radius: 25px;
+    text-align: center;
+}
+#flipBtn {
+    width: 380px;
+    height: 40px;
+    background-color: #222222;
+    border-radius: 25px;
+    border: black 3px solid;
+    color: white;
+    font-weight: bold;
+}
+#flipBtn:hover {
+    cursor: pointer;
+}
